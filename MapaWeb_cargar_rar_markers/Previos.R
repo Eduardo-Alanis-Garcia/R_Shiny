@@ -19,8 +19,8 @@ rutina_crear_copias_temporales <- function(inputFiles) {
 
 
 
-mun = sf::read_sf("Accesibilidad/municipiosjair.shp")
-hidalgo= sf::st_read("Accesibilidad/hidalgo/LIM_MUNICIPALES.shp")
+mun = sf::read_sf("MapaWeb_cargar_rar_markers/Accesibilidad/municipiosjair.shp")
+hidalgo= sf::st_read("MapaWeb_cargar_rar_markers/Accesibilidad/hidalgo/LIM_MUNICIPALES.shp")
 
 ###############################
 ##### Accesibilidad Previa ####

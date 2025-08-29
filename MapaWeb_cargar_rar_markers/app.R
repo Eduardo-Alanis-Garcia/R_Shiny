@@ -6,8 +6,10 @@ library(shinyjs)
 library(DT)
 library(archive)
 
+## Funciona cargando linea por linea cuando abres el proyecto, pendiente checar porque sucede eso
+
 ### Carga de previos
-source("Previos.R")
+source("MapaWeb_cargar_rar_markers/Previos.R")
 
 
 ####################################
@@ -407,3 +409,4 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+

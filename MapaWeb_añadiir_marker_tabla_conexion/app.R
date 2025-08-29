@@ -5,9 +5,11 @@ library(sf)
 library(shinyjs)
 library(DT)
 
+# Nota correr linea por linea para que funcione esta raro
 
+getwd()
 ### Carga de previos
-source("Previos.R")
+source("MapaWeb_añadiir_marker_tabla_conexion/Previos.R")
 
 ui <- page_sidebar(
   
